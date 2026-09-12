@@ -373,4 +373,5 @@ ol.opts li{margin:.15em 0}
 
 
 </div>
+<script type="module" src="./js/statistics.js"></script>
 </body></html>
