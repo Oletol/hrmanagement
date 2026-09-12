@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Model of Communication. Student's Book (Lesson 1)</title>
+<style>
+:root{--ink:#1a1a1a;--blue:#2e74b5;--dark:#1f4d78;--green:#1f6b3b;--gold:#8a6a1f;--rule:#d8dee7;--paper:#fff;--red:#8c3b3b;}
+*{box-sizing:border-box}
+body{margin:0;background:#eef1f5;color:var(--ink);font:16px/1.6 Georgia,"Times New Roman",serif;}
+.wrap{max-width:960px;margin:0 auto;background:var(--paper);padding:34px 44px 90px;}
+h1{font-size:1.5rem;color:var(--blue);margin:2.1em 0 .6em;padding-bottom:.25em;border-bottom:2px solid var(--rule);}
+h1:first-of-type{margin-top:1em}
+h2{font-size:1.2rem;color:var(--blue);margin:1.8em 0 .5em;}
+h3{font-size:1.03rem;color:var(--dark);margin:1.4em 0 .4em;}
+h4{font-size:.95rem;color:var(--dark);margin:1.1em 0 .3em;font-style:italic}
+p{margin:.55em 0;text-align:justify}
+.src-tag{font-size:.78rem;color:#5b6570;font-weight:400;font-style:italic;margin-left:.6em}
+.lead{font-style:italic;color:#3d4650;font-size:.98rem}
+.head{background:linear-gradient(135deg,var(--dark),var(--blue));color:#fff;padding:22px 28px;border-radius:8px;margin-bottom:20px}
+.head .k{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
+.head .t{font-size:1.5rem;margin-top:.3em;font-weight:700}
+.head .s{margin-top:.35em;font-size:.92rem;opacity:.92}
+.head .m{margin-top:.5em;font-size:.85rem;opacity:.85}
+.bar{display:flex;flex-wrap:wrap;gap:.5em;align-items:center;background:#f3f6fa;border:1px solid var(--rule);border-radius:6px;padding:.6em .9em;margin:1em 0 1.4em;font-size:.85rem}
+.bar b{color:var(--dark)}
+.bar button{font:600 .78rem/1 Georgia,serif;padding:.45em .8em;border:1px solid var(--blue);border-radius:5px;background:#fff;color:var(--blue);cursor:pointer}
+.bar button:hover{background:var(--blue);color:#fff}
+.panel{border-left:4px solid var(--blue);background:#f3f7fb;padding:.85em 1.1em;margin:1em 0;border-radius:0 6px 6px 0}
+.panel.tip{border-left-color:var(--green);background:#f1f8f3}
+.panel.warn{border-left-color:var(--red);background:#fbf1f1}
+.panel.disc{border-left-color:var(--gold);background:#fbf6ea}
+.panel-t{font:700 .78rem/1 Georgia,serif;letter-spacing:.06em;text-transform:uppercase;color:var(--dark);margin-bottom:.4em}
+.panel.tip .panel-t{color:var(--green)} .panel.warn .panel-t{color:var(--red)} .panel.disc .panel-t{color:var(--gold)}
+.items{margin:.3em 0;padding-left:1.3em}
+.items li{margin-bottom:.4em}
+table{width:100%;border-collapse:collapse;margin:.8em 0;font-size:.92rem}
+th,td{border:1px solid var(--rule);padding:.5em .7em;text-align:left;vertical-align:top}
+th{background:#f3f6fa;color:var(--dark);font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+section.ex{margin:1.6em 0;border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.ex-h{display:flex;justify-content:space-between;align-items:center;background:#f6f8fb;padding:.6em 1em;gap:1em}
+.ex-t{font-weight:700;color:var(--dark);font-size:1rem}
+.ex-body{padding:0 1.1em 1em}
+.rubric{font-style:italic;color:#4a535c;font-size:.92rem}
+.just{font-size:.86rem;color:#5b6570}
+button.tg{font:600 .74rem/1 Georgia,serif;padding:.4em .7em;border:1px solid var(--blue);border-radius:5px;background:#fff;color:var(--blue);cursor:pointer;white-space:nowrap}
+button.tg.on{background:var(--blue);color:#fff}
+.key{display:none;background:#f4faf5;border:1px dashed var(--green);border-radius:6px;padding:.7em 1em;margin-top:.6em;font-size:.92rem}
+.key.open{display:block}
+.key .ans{color:var(--green);font-weight:700}
+.added-tag{display:inline-block;font:700 .68rem/1 Georgia,serif;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);border-radius:999px;padding:.25em .6em;margin-bottom:.5em}
+.gap{border:none;border-bottom:1px solid var(--ink);background:transparent;font:inherit;padding:0 .2em;min-width:70px}
+ol.opts{list-style:none;padding-left:0;margin:.4em 0}
+ol.opts li{margin:.15em 0}
+.rus{color:#5b6570}
+.timing{font-size:.86rem;color:#5b6570}
+.toc{columns:2;column-gap:2em;font-size:.9rem;margin:.5em 0}
+.video-box{margin:1em 0}
+.video-box iframe{width:100%;aspect-ratio:16/9;border:1px solid var(--rule);border-radius:6px}
+@media print{.bar,button.tg{display:none!important}.key{display:block!important}}
+</style>
+</head>
+<body><div class="wrap">
+<div class="head">
+<div class="k">English for Professional Communicators &middot; Student's Book &middot; Model of Communication</div>
+<div class="t">Model of Communication</div>
+</div>
+
+
+
+
+
+<h1>1. Lead-in</h1>
+<section class="ex" id="t1"><div class="ex-h"><div class="ex-t">12-question discussion walk</div></div>
+<div class="ex-body">
+<p class="rubric">Take one card (question) below. Find a partner, ask your question, answer theirs, then move to a new partner and swap questions. Continue for 8–10 minutes, meeting as many classmates as possible.</p>
+<div class="added-tag">Discussion cards (one per student)</div>
+<ol class="nums">
+<li>Think of the last conversation you had today. What made it succeed or fail?</li>
+<li>Can two people communicate without saying a single word? Give an example.</li>
+<li>Is watching a film or reading a novel a form of communication? Why, or why not?</li>
+<li>Which is harder to get right: what you say, or how you say it?</li>
+<li>Do you communicate differently with your parents than with your friends? How?</li>
+<li>What is the most common reason people misunderstand each other, in your experience?</li>
+<li>Would you rather receive bad news by phone, by message, or in person? Why?</li>
+<li>Is silence ever a form of communication? Give an example.</li>
+<li>Do you think animals communicate in the same way people do?</li>
+<li>What is one habit that makes someone a good listener?</li>
+<li>Can a photograph communicate something that words cannot?</li>
+<li>Do you think communication skills can be taught, or are some people simply born better at it?</li>
+</ol>
+<div class="panel disc"><div class="panel-t">Whole-group follow-up</div><ul class="items">
+<li>Which question produced the most disagreement between partners?</li>
+<li>Did anyone hear an answer that changed their own opinion?</li>
+</ul></div>
+</div></section>
+<h1>2. Vocabulary preview</h1>
+<section class="ex" id="t2"><div class="ex-h"><div class="ex-t">Vocabulary Focus 1: match the terms to the definitions</div></div>
+<div class="ex-body">
+<p class="rubric">Match each term (1–14) with its definition (a–n). You will meet every one of these words in Text 1.</p>
+<table><tbody>
+<tr><td>1. source</td><td rowspan="14"></td><td>a. interference that reduces the accuracy of a message</td></tr>
+<tr><td>2. receiver</td><td>b. to turn an idea into a message</td></tr>
+<tr><td>3. encode</td><td>c. the medium through which a message travels</td></tr>
+<tr><td>4. decode</td><td>d. the participant who sends the original message</td></tr>
+<tr><td>5. feedback</td><td>e. the setting, relationships and moment in which communication occurs</td></tr>
+<tr><td>6. channel</td><td>f. the participant who receives and interprets the message</td></tr>
+<tr><td>7. context</td><td>g. to interpret a message that has already been sent</td></tr>
+<tr><td>8. noise</td><td>h. a reply that the receiver sends back to the source</td></tr>
+<tr><td>9. nonverbal</td><td>i. communicated through gesture, posture or expression rather than words</td></tr>
+<tr><td>10. message</td><td>j. the idea, feeling or piece of information being communicated</td></tr>
+<tr><td>11. communicator</td><td>k. a person taking part in an act of communication</td></tr>
+<tr><td>12. effect</td><td>l. a change in knowledge, attitude or behaviour caused by communication</td></tr>
+<tr><td>13. verbal</td><td>m. communicated through spoken or written words</td></tr>
+<tr><td>14. medium</td><td>n. the physical means (sound, light, paper, signal) that carries a message</td></tr>
+</tbody></table>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Which of these fourteen words do you already use in Russian in more or less the same sense?</li>
+<li>Give your own example of a nonverbal message you have sent or received today.</li>
+</ul></div>
+</div></section>
+<section class="ex" id="t2b"><div class="ex-h"><div class="ex-t">Vocabulary Focus 2: collocations</div></div>
+<div class="ex-body">
+<p class="rubric">Match each verb or adjective (1–12) on the left with the noun on the right that it naturally combines with. Work in pairs, four items at a time.</p>
+<table><tbody>
+<tr><td>1. send</td><td rowspan="12"></td><td>a. an effort</td></tr>
+<tr><td>2. receive</td><td>b. difficulty</td></tr>
+<tr><td>3. make</td><td>c. a message</td></tr>
+<tr><td>4. have</td><td>d. feedback</td></tr>
+<tr><td>5. give</td><td>e. behaviour</td></tr>
+<tr><td>6. change</td><td>f. attention</td></tr>
+<tr><td>7. pay</td><td>g. a channel</td></tr>
+<tr><td>8. choose</td><td>h. a signal</td></tr>
+<tr><td>9. interpret</td><td>i. the meaning</td></tr>
+<tr><td>10. reduce</td><td>j. noise</td></tr>
+<tr><td>11. share</td><td>k. experience</td></tr>
+<tr><td>12. distort</td><td>l. the truth</td></tr>
+</tbody></table>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Choose three collocations from the list and use each one to describe something that happened in your group today.</li>
+</ul></div>
+</div></section>
+<section class="ex" id="t2c"><div class="ex-h"><div class="ex-t">Vocabulary Focus 3: synonyms</div></div>
+<div class="ex-body">
+<p class="rubric">Match each word (1–12) with its closest synonym (a–l).</p>
+<table><tbody>
+<tr><td>1. definition</td><td rowspan="12"></td><td>a. attempt</td></tr>
+<tr><td>2. source</td><td>b. explanation</td></tr>
+<tr><td>3. effort</td><td>c. origin</td></tr>
+<tr><td>4. occur</td><td>d. obstacle</td></tr>
+<tr><td>5. widespread</td><td>e. happen</td></tr>
+<tr><td>6. difficulty</td><td>f. common</td></tr>
+<tr><td>7. verbal</td><td>g. spoken</td></tr>
+<tr><td>8. intimate</td><td>h. reduce</td></tr>
+<tr><td>9. improve</td><td>i. private</td></tr>
+<tr><td>10. lessen</td><td>j. make better</td></tr>
+<tr><td>11. convey</td><td>k. avoid</td></tr>
+<tr><td>12. dodge</td><td>l. carry, transmit</td></tr>
+</tbody></table>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Which pair of synonyms above would you use in a formal report, and which in a casual conversation?</li>
+</ul></div>
+</div></section>
+<section class="ex" id="t2d"><div class="ex-h"><div class="ex-t">Vocabulary Focus 4: sentence gap-fill</div></div>
+<div class="ex-body">
+<p class="rubric">Complete each sentence with a word from Vocabulary Focus 1–3, then read your completed sentence aloud to the class.</p>
+<ol class="nums">
+<li>A good manager always <input class="gap" size="10"/> to understand a colleague's point of view.</li>
+<li>The company's new logo is meant to <input class="gap" size="10"/> a sense of trust.</li>
+<li>Some students <input class="gap" size="10"/> difficulty speaking in front of a large audience.</li>
+<li>Loud background music can act as physical <input class="gap" size="10"/> during a phone call.</li>
+<li>Body language is a form of <input class="gap" size="10"/> communication.</li>
+<li>Her explanation was so <input class="gap" size="10"/> that everyone understood it immediately.</li>
+<li>He tried to <input class="gap" size="10"/> the client's angry email as calmly as possible.</li>
+<li>Rumours about the merger have become <input class="gap" size="10"/> across the whole company.</li>
+<li>A firm handshake can <input class="gap" size="10"/> confidence before a word is even spoken.</li>
+<li>Please <input class="gap" size="10"/> attention: this instruction will not be repeated.</li>
+<li>Without <input class="gap" size="10"/>, the speaker never knows whether the message got through.</li>
+<li>Reading the report twice helped to <input class="gap" size="10"/> confusion about the deadline.</li>
+<li>Some topics are too <input class="gap" size="10"/> to discuss with people you have just met.</li>
+<li>Regular practice will gradually <input class="gap" size="10"/> your presentation skills.</li>
+</ol>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Whose sentence was closest to something that has actually happened to you? Tell the class the real story in two or three sentences.</li>
+</ul></div>
+</div></section>
+<h1>3. Reading: Text 1, Model of Communication</h1>
+<section class="ex" id="t3"><div class="ex-h"><div class="ex-t">Text 1 (revised, B1+/B2)</div></div>
+<div class="ex-body">
+<p>Our study of professional communication begins with a definition of the process itself and an overview of its key components. Communication can be defined as the exchange of information between two or more participants, generally referred to as communicators. One participant, known as the source, formulates and sends a message, while the other, the receiver, receives and interprets it. Before a message can be transmitted, the source must encode it; once it arrives, the receiver must decode it. The information that the receiver subsequently sends back to the source is known as feedback.</p>
+<p>Messages may be verbal, when we speak, write, listen or read, or nonverbal, when we rely on gesture, posture, eye contact or facial expression. Even physical objects and surroundings, such as the clothes we wear, the house we live in or the car we drive, can convey meaning without a single word being spoken.</p>
+<p>Every message travels through a communication channel: a vocal or auditory channel, such as speech, or a visual channel, such as gesture. Television, radio, print media and the Internet are examples of technical channels that carry messages to large audiences.</p>
+<p>Communication never occurs in a vacuum: it always takes place within a context. The physical context is the actual setting in which the exchange occurs, whether an office, a lecture hall or a public park. The social-psychological context comprises the cultural background and the relationships that exist between the participants, while the temporal context refers to the time of day and the historical moment in which communication takes place. All three dimensions of context shape both the content and the form of a message.</p>
+<p>Communication is generally considered effective when participants share a similar body of experience. A parent, for example, may occasionally struggle to communicate with a teenage son or daughter simply because their experiences of the world no longer coincide; in such cases, real communication depends on a conscious effort to bridge that gap.</p>
+<p>Communication invariably produces some effect on those who take part in it: it can alter what we know, how we feel or how we behave. When any kind of interference, generally referred to as noise, enters the system, communication becomes less effective. Noise may be physical, as when a speech impediment or illegible handwriting obscures a message; psychological, as when personal bias or prejudice colours the way a message is interpreted; or semantic, as when a lack of shared language prevents two people from understanding each other at all.</p>
+</div></section>
+<section class="ex" id="t3b"><div class="ex-h"><div class="ex-t">Match the heading to the paragraph</div></div>
+<div class="ex-body">
+<p class="rubric">Text 1 has six paragraphs. Match each heading (a–f) to the paragraph it best summarises (1–6). Do this in pairs; each pair reports one paragraph to the class.</p>
+<ol class="nums">
+<li>Paragraph 1</li><li>Paragraph 2</li><li>Paragraph 3</li><li>Paragraph 4</li><li>Paragraph 5</li><li>Paragraph 6</li>
+</ol>
+<p>a. Messages that need no words · b. Communication always happens somewhere and somewhen · c. Defining the basic roles: source and receiver · d. When generations do not share the same experience · e. How a message physically travels · f. Three kinds of interference</p>
+</div></section>
+<section class="ex" id="t4"><div class="ex-h"><div class="ex-t">FCE Reading, Part 5 format: multiple choice</div></div>
+<div class="ex-body">
+<p class="rubric">For questions 1–6, choose the answer (A, B, C or D) which you think fits best according to Text 1.</p>
+<ol class="nums">
+<li>According to the text, feedback is best described as
+<ol class="opts"><li>A the interference that reduces the accuracy of a message.</li><li>B the information that a receiver sends back to the original source.</li><li>C the process of converting an idea into a message.</li><li>D the shared background that participants bring to an exchange.</li></ol></li>
+<li>The writer mentions clothes, houses and cars in order to show that
+<ol class="opts"><li>A nonverbal messages can be sent without any use of language.</li><li>B technical channels are the most common form of communication.</li><li>C physical noise is unavoidable in everyday interaction.</li><li>D context always determines the meaning of a message.</li></ol></li>
+<li>According to paragraph 3, television and radio are examples of
+<ol class="opts"><li>A vocal or auditory channels only.</li><li>B channels that reach large audiences.</li><li>C sources of psychological noise.</li><li>D visual channels used mainly for feedback.</li></ol></li>
+<li>Which of the following best summarises the writer's point about the parent and teenager?
+<ol class="opts"><li>A Teenagers deliberately avoid communicating with their parents.</li><li>B Differences in experience can make communication more difficult.</li><li>C Feedback is impossible between people of different generations.</li><li>D Parents should not try to understand their children's problems.</li></ol></li>
+<li>The word "invariably" in paragraph 6 is closest in meaning to
+<ol class="opts"><li>A occasionally.</li><li>B always.</li><li>C rarely.</li><li>D unpredictably.</li></ol></li>
+<li>According to the last paragraph, semantic noise occurs when
+<ol class="opts"><li>A a message is interrupted by background sound.</li><li>B a listener's own opinions distort the meaning of a message.</li><li>C two participants do not share a common language.</li><li>D a speaker's handwriting is difficult to read.</li></ol></li>
+</ol>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Which type of noise (physical, psychological or semantic) do you think causes the most misunderstandings at university? Justify your choice.</li>
+<li>Describe a real situation in which the physical, social-psychological or temporal context changed the meaning of something you said.</li>
+<li>Do you agree that a message can be "perfectly clear" in one context and confusing in another? Give your own example.</li>
+<li>Can you think of an object, other than clothes or a car, that "communicates" something about its owner?</li>
+</ul></div>
+</div></section>
+<h1>4. Use of English</h1>
+<section class="ex" id="t5"><div class="ex-h"><div class="ex-t">Part 1 format: multiple-choice cloze</div></div>
+<div class="ex-body">
+<p class="rubric">For questions 1–8, read the text and decide which answer (A, B, C or D) best fits each gap.</p>
+<p class="run">Effective communication does not (1) <input class="gap" size="8"/> by chance; it results from a conscious effort on the part of everyone involved. Before sending a message, a competent communicator must (2) <input class="gap" size="8"/> into account the audience, the channel and the context in which the exchange will take place. A message that is perfectly clear in one context may (3) <input class="gap" size="8"/> complete confusion in another. For this reason, professionals are increasingly trained to (4) <input class="gap" size="8"/> attention to nonverbal cues as well as to the words themselves. Body language, tone of voice and even silence can (5) <input class="gap" size="8"/> as much information as a carefully worded sentence. Feedback, too, plays a (6) <input class="gap" size="8"/> role: without it, a source has no way of knowing whether a message has been understood correctly. When feedback is absent or delayed, small misunderstandings can quickly (7) <input class="gap" size="8"/> into serious conflicts. It is only through continuous attention to both sending and receiving that organisations can (8) <input class="gap" size="8"/> a culture of open and effective communication.</p>
+<table><tbody>
+<tr><td>1</td><td>A happen</td><td>B occur</td><td>C rise</td><td>D fall</td></tr>
+<tr><td>2</td><td>A take</td><td>B keep</td><td>C hold</td><td>D put</td></tr>
+<tr><td>3</td><td>A make</td><td>B cause</td><td>C do</td><td>D perform</td></tr>
+<tr><td>4</td><td>A do</td><td>B pay</td><td>C make</td><td>D hold</td></tr>
+<tr><td>5</td><td>A tell</td><td>B communicate</td><td>C say</td><td>D speak</td></tr>
+<tr><td>6</td><td>A vital</td><td>B big</td><td>C great</td><td>D grand</td></tr>
+<tr><td>7</td><td>A escalate</td><td>B raise</td><td>C rise</td><td>D increase</td></tr>
+<tr><td>8</td><td>A foster</td><td>B feed</td><td>C rise</td><td>D born</td></tr>
+</tbody></table>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Choose two of the collocations above (for example "pay attention to" or "foster a culture of") and use each in a sentence about your own university group.</li>
+</ul></div>
+</div></section>
+<section class="ex" id="t6"><div class="ex-h"><div class="ex-t">Part 3 format: word formation</div></div>
+<div class="ex-body">
+<p class="rubric">Use the word given in capitals to form a word that fits in the gap.</p>
+<ol class="nums">
+<li>Clear <input class="gap" size="11"/> between departments prevents costly mistakes. (COMMUNICATE)</li>
+<li>The manager gave a detailed and highly <input class="gap" size="11"/> briefing before the meeting. (INFORM)</li>
+<li>Poor channel choice can seriously reduce the <input class="gap" size="11"/> of a message. (EFFECTIVE)</li>
+<li>Social media has become an increasingly <input class="gap" size="11"/> factor in professional reputation. (INFLUENCE)</li>
+<li>During the negotiation, she answered every question with calm <input class="gap" size="11"/>. (ASSERT)</li>
+<li>Cultural background can affect the <input class="gap" size="11"/> that listeners give to the same words. (INTERPRET)</li>
+<li>A prompt <input class="gap" size="11"/> from the client confirmed that the proposal had been understood. (RESPOND)</li>
+<li>With enough shared experience, a colleague's reaction becomes fairly <input class="gap" size="11"/>. (PREDICT)</li>
+<li>The report was written in a strangely <input class="gap" size="11"/> style, full of jargon nobody understood. (CONFUSE)</li>
+<li>Her <input class="gap" size="11"/> to explain the delay only made the client more suspicious. (WILLING, negative)</li>
+</ol>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Which of these ten qualities (informative, influential, assertive, predictable, confusing...) would you most want a manager to have, and which would you least want? Rank your top and bottom choice and compare with a partner.</li>
+</ul></div>
+</div></section>
+<section class="ex" id="t6b"><div class="ex-h"><div class="ex-t">Vocabulary Focus 5: communication idioms and fixed expressions</div></div>
+<div class="ex-body">
+<p class="rubric">Divide into three or four teams. Each team completes all 12 items in five minutes. Complete each idiom with one or two words.</p>
+<ol class="nums">
+<li>To get straight to the point without wasting words: to not <input class="gap" size="9"/> around the bush.</li>
+<li>To fail to notice an obvious hint: to miss the <input class="gap" size="9"/>.</li>
+<li>To finally understand something after confusion: the penny has <input class="gap" size="9"/>.</li>
+<li>To talk about something everyone is avoiding: to address the <input class="gap" size="9"/> in the room.</li>
+<li>To keep someone informed: to keep someone in the <input class="gap" size="9"/>.</li>
+<li>To deliberately not tell someone something important: to keep someone in the <input class="gap" size="9"/>.</li>
+<li>To say exactly what you mean, without being polite: to speak your <input class="gap" size="9"/>.</li>
+<li>To agree completely with what someone is saying: to be on the same <input class="gap" size="9"/>.</li>
+<li>To understand each other perfectly: to be on the same <input class="gap" size="9"/>.</li>
+<li>To listen carefully and take something seriously: to take something on <input class="gap" size="9"/>.</li>
+<li>To repeat something so that it is completely clear: to spell it <input class="gap" size="9"/>.</li>
+<li>To communicate without any misunderstanding: to make yourself <input class="gap" size="9"/>.</li>
+</ol>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Which of these twelve expressions do you already use, in English or in Russian translation, with your own friends?</li>
+<li>Tell your team about a time when you were "kept in the dark" about something, or when the penny finally "dropped" for you.</li>
+</ul></div>
+</div></section>
+<h1>5. Listening</h1>
+<section class="ex" id="t7"><div class="ex-h"><div class="ex-t">Video: The Communication Process Explained</div></div>
+<div class="ex-body">
+<div class="video-box"><iframe allowfullscreen="" loading="lazy" src="https://rutube.ru/video/private/18be7d8de5905bd1991e7d353b543e21/?r=wd&p=WVIFrbhCiQtISfzIO8_6KQ" title="The Communication Process Explained"></iframe></div>
+<p class="rubric"><b>Pre-listening.</b> Before you watch, predict: which of the terms from exercise 2 (source, receiver, encode, decode, feedback, channel, context, noise) do you expect the speaker to use?</p>
+<p class="rubric"><b>While you watch.</b> Decide whether each statement is True or False.</p>
+<ol class="nums">
+<li>The video presents the model as an update of Text 1's ideas, not as an alternative theory.</li>
+<li>The speaker names the sender, the message, the channel, the receiver and feedback as parts of the process.</li>
+<li>According to the video, noise can only affect a message while it is inside the channel.</li>
+<li>The model discussed in the video is associated with the names Shannon and Weaver.</li>
+<li>The video claims that feedback is optional and rarely improves communication.</li>
+<li>Encoding and decoding are both mentioned as necessary steps in the process.</li>
+<li>The speaker gives at least one everyday example of the model in action.</li>
+<li>The video concludes that communication is a purely one-directional process.</li>
+<li>The video was originally designed as an engineering model before it was applied to human communication.</li>
+<li>The speaker suggests that understanding the model can help people communicate more effectively.</li>
+</ol>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Does the video add anything to the model in Text 1, or does it simply repeat the same ideas in a different form?</li>
+<li>Choose one example from the video and retell it in your own words to a partner, using at least three terms from exercise 2.</li>
+<li>Do you find it easier to understand a new model through a written text or through a short video? Why?</li>
+</ul></div>
+<div class="added-tag">Post-listening mingle (one question per student, 15 questions)</div>
+<p class="rubric">Each student takes a different question below. Stand up, ask your question to three different classmates in turn, and note down one interesting answer for each.</p>
+<ol class="nums">
+<li>What was the single most useful idea in the video, for you personally?</li>
+<li>Did anything in the video contradict what you expected before you watched?</li>
+<li>How would you explain "noise" to someone who has never studied communication?</li>
+<li>Which part of the model do you think is hardest to control in real life: encoding, the channel, or decoding?</li>
+<li>Can you think of a situation this week where feedback was missing, and what happened as a result?</li>
+<li>Would the model in the video work equally well for a text message conversation? Why, or why not?</li>
+<li>Which is more likely to distort a message: physical noise or psychological noise, in your experience?</li>
+<li>If you had to remove one element from the model, which would you remove, and why?</li>
+<li>Do you think the model applies to communication between a person and a computer?</li>
+<li>What advice from the video would you give to a shy classmate?</li>
+<li>How is a lecture different from the two-way communication described in the model?</li>
+<li>Would the model change if the sender and receiver spoke different first languages?</li>
+<li>What is one word from the video you had not met before?</li>
+<li>Do you think the model is equally useful in personal relationships and in business?</li>
+<li>What question would you ask the speaker if you could ask just one?</li>
+</ol>
+</div></section>
+<h1>6. Use of English</h1>
+<section class="ex" id="t8"><div class="ex-h"><div class="ex-t">Part 4 format: key word transformation</div></div>
+<div class="ex-body">
+<p class="rubric">Complete the second sentence so that it means the same as the first, using the word given. Do not change the word given. Use between two and five words.</p>
+<ol class="nums">
+<li>It is important to try hard to understand a different point of view.<br/><b>EFFORT</b><br/>It is important to <input class="gap" size="18"/> understand a different point of view.</li>
+<li>I stopped writing formal letters when I started using email at work.<br/><b>USED</b><br/>I <input class="gap" size="18"/> formal letters before I started using email at work.</li>
+<li>Maria finds it hard to give a presentation without notes.<br/><b>DIFFICULTY</b><br/>Maria <input class="gap" size="18"/> a presentation without notes.</li>
+<li>The last time the team communicated by phone was in March.<br/><b>SINCE</b><br/>The team <input class="gap" size="18"/> by phone since March.</li>
+<li>Communication cannot be effective if there is no feedback.<br/><b>UNLESS</b><br/>Communication cannot be effective <input class="gap" size="18"/> is provided.</li>
+<li>Michael's presentation skills have improved a great deal since last year.<br/><b>BETTER</b><br/>Michael <input class="gap" size="18"/> presenting than he was last year.</li>
+</ol>
+<div class="panel disc"><div class="panel-t">Discussion</div><ul class="items">
+<li>Rewrite item 4 so that it is true about your own group: how long has it been since you last did something as a team?</li>
+</ul></div>
+</div></section>
+<h1>7. Speaking</h1>
+<section class="ex" id="t9"><div class="ex-h"><div class="ex-t">FCE Speaking format, Parts 2–4</div></div>
+<div class="ex-body">
+<div class="panel"><div class="panel-t">Part 2: individual long turn (1 minute)</div><p>Look at two contrasting photographs of people communicating (for example, a face-to-face team meeting and a video call). <i>Compare the two photographs and say what you think the people are finding easy or difficult about communicating in each situation.</i></p><p class="timing">You have 1 minute to compare the photographs. Your partner then comments briefly on what you said.</p></div>
+<div class="panel"><div class="panel-t">Part 3: collaborative task (2 + 1 minutes)</div><p>Here are some things that can help two people communicate well. In groups of three, talk about how useful each one is. Then decide together which three are the most important.</p><ul class="items"><li>using clear, simple language</li><li>asking questions to check understanding</li><li>paying attention to body language</li><li>choosing the right moment and place</li><li>giving honest feedback</li><li>being aware of cultural differences</li><li>keeping messages short</li><li>repeating important information</li><li>matching your tone to the situation</li><li>allowing time for the other person to respond</li></ul></div>
+<div class="panel disc"><div class="panel-t">Part 4: one-question-each discussion (15 questions, one per student)</div><p class="rubric">Each student is given one question below. Prepare a 30-second answer, then form a circle: each student asks their question to the whole class and calls on one classmate to answer, who then asks their own question next.</p>
+<ol class="nums">
+<li>Do you think technology has made communication easier or more difficult overall?</li>
+<li>Is it possible to be a good communicator in one language but not in another? Why?</li>
+<li>How important is feedback in a classroom, compared with a workplace?</li>
+<li>Some people say that listening is a bigger part of communication than speaking. Do you agree?</li>
+<li>Should public administration officials be trained specifically in communication skills?</li>
+<li>Do you think written communication (email, messages) is more or less honest than spoken communication?</li>
+<li>Is it ever acceptable to communicate bad news through a subordinate rather than in person?</li>
+<li>How has your own communication style changed since you started university?</li>
+<li>Do you think older and younger generations communicate in fundamentally different ways?</li>
+<li>What role does silence play in a negotiation or a difficult conversation?</li>
+<li>Can too much feedback ever be a problem?</li>
+<li>Is nonverbal communication more or less important in an online meeting than in person?</li>
+<li>Do you think a good communicator is born or made?</li>
+<li>How should a public servant communicate differently with citizens than with colleagues?</li>
+<li>What is the biggest communication mistake you have seen a leader or manager make?</li>
+</ol>
+</div>
+</div></section>
+
+
+
+</div>
+</body></html>
